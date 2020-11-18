@@ -1,5 +1,5 @@
 # Auto-Text-Animation-WebsiteComponentSeries-02
-<h1>Stact </h1>
+<h1>Stack</h1>
 <ul>
 <li>HTML</li>
 <li>CSS</li>
