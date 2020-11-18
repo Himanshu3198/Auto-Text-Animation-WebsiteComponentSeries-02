@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto text Generator</title>
+</head>
+<style>
+    body{
+        background-color: burlywood;
+    }
+    #text{
+        margin-top: 20%;
+        text-align: center;
+        padding: 50px 50px;
+        color: brown;
+        font-size: 3rem;
+
+    }
+</style>
+<body>
+    <div class="container">
+        <h1 id="text">Starting...</h1>
+    </div>
+    <script>
+        const text=document.getElementById("text");
+        const intro="Hello , I am Himanshu Sharma !";
+        let index=1;
+        setInterval(writeText,100);
+        function writeText(){
+        
+                 text.innerHTML=intro.slice(0,index);
+                index++;
+                if(index>intro.length){
+                    index=1;
+                }
+            
+           
+           
+              
+            
+            
+
+        }
+    </script>
+</body>
+</html>
